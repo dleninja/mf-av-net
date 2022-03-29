@@ -8,6 +8,8 @@ Many retinal diseases effect Arteries and Veins in different ways. Clinical obse
 In this project we present a deep learning approach for dispersion compensation using a fully convolutional network (FCN)
 named Artery-vein classification network (AV-Net) for optical coherence tomography (OCT) and OCT-angiography (OCTA) and evaluate multimodal fusion strategies to improve segmentation performance.
 
+Mansour Abtahi and David Le contributed equally to this project, a similar repository can be found [here](https://github.com/mansour2002/multimodal-avnet).
+
 Dataset
 ------------
 The dataset were collected by the Biomedical Optics and Ophthalmic Imaging Laboratory at the University of Illinois at Chicago. This study has been conducted in compliance with the ethical regulations reported in the Declaration of Helsinki and has been authorized by the institutional review board of the University of Illinois at Chicago.
