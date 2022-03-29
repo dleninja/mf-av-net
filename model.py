@@ -11,9 +11,9 @@ from tensorflow.keras import Model
 from tensorflow.keras import backend
 import sys
 
-def adcnet_model(block=[6, 12, 24, 16], height=None, width=None, n_channels=3):
+def avnet_model(block=[6, 12, 24, 16], height=None, width=None, n_channels=3):
 	"""
-	ADC-Net model is an encoder-decoder network.
+	AV-Net model is an encoder-decoder network.
 	- The encoder is based on the DenseNet-121 architecture.
 	- The decoder is a custom a decoder.
 
