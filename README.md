@@ -30,3 +30,5 @@ Dependencies
 
 Citations
 ------------
+Abtahi Mansour, David Le, Lim Jennifer, and Xincheng Yao.
+"MF-AV-Net: an open source deep learning network with multimodal fusion options for artery-vein segmentation in OCT angiography (2022)".
