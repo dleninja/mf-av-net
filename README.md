@@ -20,7 +20,7 @@ Network Architecture
 ------------
 The AV-Net is a FCN based on a modified UNet algorithm, which consists of an encoder-decoder architecture. The input to the AV-Net can be of a single channel or a two channel image. The network architecture presented below represents a late fusion approach that combines the outputs of two networks trained on different imaging modalities, OCT and OCTA, respectively.
 
-![The late stage fusion approach of AV-Net, which employs different expert networks for OCT and OCTA, and combines the output of the two networks.](https://github.com/dleninja/multimodal-avnet/blob/main/misc/figure_Late.png?raw=true)
+![The late stage fusion approach of AV-Net, which employs different expert networks for OCT and OCTA, and combines the output of the two networks.](https://github.com/dleninja/multimodal-avnet/blob/main/misc/figure_Late_fusion.png?raw=true)
 
 Dependencies
 ------------
