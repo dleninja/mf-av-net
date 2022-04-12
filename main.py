@@ -45,7 +45,7 @@ model = avnet_model(block=[6, 12, 24, 16], height=320, width=320, n_channels=3)
 model.summary()
 #
 """
-Import the DenseNet121 pre-trained weights from the ImageNet dataset into the encoder of ADCNet
+Import the DenseNet121 pre-trained weights from the ImageNet dataset into the encoder of AVNet
 """
 #
 densenet_model = tf.keras.applications.DenseNet121(
