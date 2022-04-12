@@ -67,9 +67,9 @@ def avnet_model(block=[6, 12, 24, 16], height=None, width=None, n_channels=3):
 	x = Conv2D(filters=1, kernel_size=1, strides=1, use_bias=True, padding="same", name="final_conv")(x)
 	outputs = Activation("sigmoid", name="output_classification")(x)
 	#
-	adcnet = Model(inputs, outputs)
+	avnet = Model(inputs, outputs)
 	#
-	return adcnet
+	return avnet
 
 def dense_block(x, blocks, name):
 	"""
