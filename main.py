@@ -1,5 +1,5 @@
 """
-Artery Vein Network (ADC-Net).
+Artery Vein Network (AV-Net).
 
 This file contains the code to train AV-Net. For this example, a 2 channel input model will be demonstrated.
 Minor modifications is needed for the other types of input models.
