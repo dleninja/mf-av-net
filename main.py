@@ -41,7 +41,7 @@ from custom_utils import *
 Load the AVNet model, dependent on the functions defined in model.py
 """
 #
-model = avnet_model(block=[6, 12, 24, 16], height=608, width=320, n_channels=5)
+model = avnet_model(block=[6, 12, 24, 16], height=320, width=320, n_channels=3)
 model.summary()
 #
 """
