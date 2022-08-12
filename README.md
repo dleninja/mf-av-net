@@ -1,4 +1,4 @@
-AVNet in Python using Keras
+MF-AV-Net in Python using Keras
 ===============================================================
 
 Overview
