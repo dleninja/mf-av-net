@@ -3,7 +3,7 @@ MF-AV-Net in Python using Keras
 
 Overview
 ------------
-Many retinal diseases affect Arteries and Veins in different ways. Clinical observations of the retinal vasculature in diabetic retinopathy patients suggest a dilation of the veins and a constriction of the arteries. Therefore, the differentiation of arteries and veins can provide important information for the diagnosis and monitoring of retinopathies. To examine the retinal vasculature, optical coherence tomography angiography (OCTA) is used. Current methods for artery-vein (AV) pixel-wise classification or segmentation in OCTA requires an extensive image processing procedure, which may inhibit clinical deployment.
+Many retinal diseases affect arteries and veins in different ways. Clinical observations of the retinal vasculature in diabetic retinopathy patients suggest dilation of the veins and constriction of the arteries. Therefore, the differentiation of arteries and veins can provide important information for the diagnosis and monitoring of retinopathies. To examine the retinal vasculature, optical coherence tomography angiography (OCTA) is used. Current methods for artery-vein (AV) pixel-wise classification or segmentation in OCTA require an extensive image processing procedure, which may inhibit clinical deployment.
 
 In this project, we present a fully convolutional network (FCN), MF-AV-Net, that consists of multimodal fusion options and validated it for comparative assessment of different optical coherence tomography (OCT) and OCT-angiography (OCTA) fusion strategies to improve AV segmentation performance in OCTA.
 
